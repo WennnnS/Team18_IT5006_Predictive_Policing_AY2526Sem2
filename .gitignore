@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+
+# data
+data/raw/
+data/processed/
+
+# large notebooks outputs
+*.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

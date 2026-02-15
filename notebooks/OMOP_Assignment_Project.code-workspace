@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../../BMI5207/Assignment/OMOP_Assignment_Project"
+		},
+		{
+			"path": "../../../../BMI5207/Assignment/medical_etl_project"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {}
+}
