@@ -1,6 +1,8 @@
 .venv/
+venv/
 __pycache__/
 *.pyc
+.env
 
 # large notebooks outputs
 *.ipynb_checkpoints/
@@ -8,3 +10,12 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+
+data/raw/
+data/processed/phase2/clean_crime_events.csv
+data/processed/phase2/train_panel_featured.csv
+data/processed/phase2/train_panel_raw.csv
+notebooks/phase2/IN-2024_selected/
+notebooks/phase2/models/random_forest.joblib
+.Rhistory

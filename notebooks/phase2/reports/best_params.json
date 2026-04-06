@@ -1,0 +1,36 @@
+{
+  "logistic_regression": {
+    "params": {
+      "C": 0.01,
+      "class_weight": "balanced"
+    },
+    "threshold": 0.5833333333333335
+  },
+  "random_forest": {
+    "params": {
+      "n_estimators": 200,
+      "max_depth": 20,
+      "min_samples_leaf": 5,
+      "class_weight": "balanced_subsample"
+    },
+    "threshold": 0.5166666666666667
+  },
+  "gradient_boosting": {
+    "params": {
+      "n_estimators": 250,
+      "learning_rate": 0.05,
+      "max_depth": 2,
+      "subsample": 0.8
+    },
+    "threshold": 0.25000000000000006
+  },
+  "hist_gradient_boosting": {
+    "params": {
+      "max_iter": 250,
+      "learning_rate": 0.05,
+      "max_depth": 8,
+      "min_samples_leaf": 50
+    },
+    "threshold": 0.2833333333333334
+  }
+}
